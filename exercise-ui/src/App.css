@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Zen+Kurenaido&display=swap');
+
+body {
+  font-family:"Zen Kurenaido", sans-serif;
+  background-color: #dc9e82;
+  font-size:1em;
+  line-height:1.2;
+  color:#030027;
+  margin:2%;
+  padding:0;
+  text-align: center;
+}
+
+header {
+  font-family: "Lobster", cursive;
+  background-color: #c16e70;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #f2f3d9;
+  line-height: 1em;
+  padding:1%;
+  margin:auto;
+}
+
+nav a {
+  background-color:#151e3f;
+  color:#f2f3d9;
+  font-weight:bold;
+  text-decoration:none;
+  border-radius:40px;
+  padding:1.5%;
+  margin-left:4%;
+  outline: 1px solid #f2f3d9;
+}
+nav a:hover {
+  background-color:#f2f3d9;
+  color: #151e3f;
+}
+
+main {
+  background-color: #c16e7050;
+  padding:1%;
+  margin: auto;
+}
+
+footer {
+  background-color: #c16e70;
+  padding:0.25%;
+  margin:auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+caption {
+  background-color: #f2f3d995;
+  font-weight: bold;
+  border: 1px solid #151e3f;
+
+}
+
+thead {
+  height:40px;
+  text-align: center;
+}
+
+tbody {
+  background-color:#f2f3d950;
+  text-align: center;
+}
+
+tr td {
+  border-bottom: 1px solid #f2f3d9;
+  min-width: 115px;
+}
+
+tr th {
+  background-color: #151e3f30;
+  color: #f2f3d9
+}
+
+th, td {border: 1px solid #151e3f}
+
+fieldset {
+  font-family:"Zen Kurenaido", sans-serif;
+  background-color: #f2f3d950;
+}
+
+legend {
+  font-family:"Zen Kurenaido", sans-serif;
+  color:#030027;
+  font-weight: bold;
+}
+
+label {
+  font-family:"Zen Kurenaido", sans-serif;
+}
+
+input {
+  font-family:"Zen Kurenaido", sans-serif;
+  background-color: #f2f3d9;
+  color:#030027;
+  padding:1%;
+  margin: 5px;
+}
+
+select {
+  font-family:"Zen Kurenaido", sans-serif;
+  background-color: #f2f3d9;
+  color:#030027;
+  padding:1%;
+  margin: 5px;
+}
+
+button {
+  font-family:"Zen Kurenaido", sans-serif;
+  background-color: #151e3f;
+  border: 1px solid #f2f3d9;
+  color:#f2f3d9;
+  padding: 1%;
+  border-radius:20px;
+  margin: 5px;
+}
+.App-logo {
+  margin-left: 1rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
